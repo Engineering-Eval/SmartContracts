@@ -1,0 +1,45 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Quote",
+  "sourceName": "contracts/skill/Quote.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "sharePrice",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "shares",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "remaining",
+          "type": "uint256"
+        }
+      ],
+      "name": "quote",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "cost",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bool",
+          "name": "canFill",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b5060bd8061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063ad615dec14602d575b600080fd5b60436038366004605c565b600080935093915050565b6040805192835290151560208301520160405180910390f35b600080600060608486031215607057600080fd5b50508135936020830135935060409092013591905056fea2646970667358221220088d1e67732e4e2be2283a5c7a2fe6bc9273313f1b2ca66b947a07b77b5c2a2a64736f6c63430008180033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063ad615dec14602d575b600080fd5b60436038366004605c565b600080935093915050565b6040805192835290151560208301520160405180910390f35b600080600060608486031215607057600080fd5b50508135936020830135935060409092013591905056fea2646970667358221220088d1e67732e4e2be2283a5c7a2fe6bc9273313f1b2ca66b947a07b77b5c2a2a64736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

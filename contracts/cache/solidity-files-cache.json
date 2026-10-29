@@ -1,0 +1,77 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\root\\Videos\\contract - Copy\\contracts\\contracts\\RealEstateMarketplace.sol": {
+      "lastModificationDate": 1791751253097,
+      "contentHash": "a720d1040bc0aa45b7c2efb6a7797a60",
+      "sourceName": "contracts/RealEstateMarketplace.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "RealEstateMarketplace"
+      ]
+    },
+    "C:\\Users\\root\\Videos\\contract - Copy\\contracts\\contracts\\skill\\Quote.sol": {
+      "lastModificationDate": 1793262822300,
+      "contentHash": "a530ba17e9bfe0badf5b43a9564fd76b",
+      "sourceName": "contracts/skill/Quote.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "Quote"
+      ]
+    }
+  }
+}
